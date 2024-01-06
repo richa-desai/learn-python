@@ -18,7 +18,7 @@ def driver():
 
     packets = 9
     packet_cost = 1.49
-    ans = 20 - (9 * 1.49)
+    ans = 20 - (packets * packet_cost)
     print("change:", ans)
 
     bathroom_area = 5.5 ** 2
