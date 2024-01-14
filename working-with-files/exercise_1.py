@@ -1,6 +1,11 @@
 '''poem.txt contains famous poem "Road not taken" by poet Robert Frost.
 You have to read this file in your python program and find out words with maximum occurance.'''
-
+import os
+print(os.listdir())
+dir1 = os.getcwd()
+dir1 += '/working-with-files'
+os.chdir(dir1)
+dir1 = os.getcwd()
 with open('poem.txt','r', encoding="utf-8") as file:
     word_counter = {}
     # reading each line

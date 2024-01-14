@@ -1,4 +1,4 @@
-''' ribbon program '''
+''' ribbon program : Practice program'''
 import math
 
 def solution(a, k):

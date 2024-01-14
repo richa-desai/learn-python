@@ -1,5 +1,14 @@
-''' quick access codes (finding maximums in dictionary)'''
+''' quick access codes '''
 
+# changing the current working directory
+import os
+print(os.listdir()) # check which files are there in the cwd
+dir1 = os.getcwd() # or print cwd
+dir1 += '/working-with-files'
+os.chdir(dir1)
+dir1 = os.getcwd()
+
+# (finding maximums in dictionary)
 for _ in range(int(input())):
     N,K = map(int, input().split()) # split string code
     str2 = list(map(int, input().split())) # split string to list
